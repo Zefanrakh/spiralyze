@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Senior Care Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description"
+        content="Discover our senior care support services aimed at reducing loneliness and social isolation among older adults. Offering needs assessment, treatment planning, and advocacy for a fulfilling life." />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swiper@11.0.6/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/components.css" />
+    <link rel="stylesheet" type="text/css" href="./css/home.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.6/swiper-bundle.min.js" defer></script>
+
+</head>
+
+<body>
+    <div class="home">
+        <div class="main__column">
+            <!-- header section -->
+            <div class="main__header">
+                <div class="column__vertical links__and__hero">
+                    <!-- Links -->
+                    <div class="links__container">
+                        <header class="column__horizontal logo__and__links">
+                            <img src="public/images/img_header_logo.svg" alt="Headerlogo" class="header__logo" />
+                            <div class="column__horizontal links__and__contact">
+                                <ul class="header__menu ui text size-texts">
+                                    <li>
+                                        <a href="#">
+                                            <p class="header__menu__item">HOME</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="header__menu__item">ABOUT</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="header__menu__item">CONTACT</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__divider"></div>
+                                <p class="header__call__to__action ui heading size-headingxs">CALL NOW FOR A
+                                    CONSULT<span class="header__call__to__action__number">
+                                        123.456.7890
+                                    </span>
+                                </p>
+                            </div>
+                            <div id="burgerButton" class="menu__button">
+                                <img class="burger" src="public/images/menu.png" />
+                                <img class="close" src="public/images/close.png" />
+                            </div>
+                            <div id="menuCollapsible" class="header__menu__collapsible">
+                                <div class="header__menu__collapsible__content">
+                                    <ul class="header__menu ui text">
+                                        <li>
+                                            <a href="#">
+                                                <p class="header__menu__item">HOME</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p class="header__menu__item">ABOUT</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <p class="header__menu__item">CONTACT</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="header__call__to__action ui heading">CALL NOW FOR A
+                                        CONSULT<span class="header__call__to__action__number">
+                                            123.456.7890
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </header>
+                    </div>
+                    <!-- Hero -->
+                    <div class="stackgetan">
+                        <div class="main__title__and__description">
+                            <h1 class="main__title ui heading size-heading3xl">
+                                <span class="main__title__transparent"> GET AN</span>
+                                <span class="main__title__filled"> INTERVENTION</span>
+                            </h1>
+                            <p class="main__description ui text size-texts">
+                                Showing greater respect to older adults can be done in several ways : acknowledging and
+                                putting
+                                to use the talents and skills of older adults; creating intergenerational
+                                initiatives; and
+                                allowing older adults to stay active and independent for as long as possible.
+                            </p>
+                        </div>
+                        <form id="form" class="contact__form flex-col-center-center">
+                            <div class="contact__form__title">
+                                <h2 class="ui heading size-headinglg">Contact Us</h2>
+                            </div>
+                            <div class="contact__form__input__container">
+                                <fieldset>
+                                    <input name="first_name" placeholder="First Name" type="text" />
+                                    <legend data-label="First Name"></legend>
+                                    <label class="replacer">First Name</label>
+                                </fieldset>
+                                <div class="error__tooltip">
+                                    <img src="/public/images/error_tooltip_2.png" alt="" />
+                                    <p>This field can’t be empty. Please fill it in.</p>
+                                </div>
+                            </div>
+                            <div class="contact__form__input__container">
+                                <fieldset>
+                                    <input name="last_name" placeholder="Last Name" type="text" />
+                                    <legend data-label="Last Name"></legend>
+                                    <label class="replacer">Last Name</label>
+                                </fieldset>
+                                <div class="error__tooltip">
+                                    <img src="/public/images/error_tooltip_2.png" alt="" />
+                                    <p>This field can’t be empty. Please fill it in.</p>
+                                </div>
+                            </div>
+                            <div class="contact__form__input__container">
+                                <fieldset>
+                                    <input name="business_email" placeholder="Business Email" type="text" />
+                                    <legend data-label="Business Email"></legend>
+                                    <label class="replacer">Business Email</label>
+                                </fieldset>
+                                <div class="error__tooltip">
+                                    <img src="/public/images/error_tooltip_2.png" alt="" />
+                                    <p>This field can’t be empty. Please fill it in.</p>
+                                </div>
+                            </div>
+                            <div class="contact__form__input__container">
+                                <fieldset>
+                                    <input name="company" placeholder="Company" type="text" />
+                                    <legend data-label="Company"></legend>
+                                    <label class="replacer">Company</label>
+                                </fieldset>
+                                <div class="error__tooltip">
+                                    <img src="/public/images/error_tooltip_2.png" alt="" />
+                                    <p>This field can’t be empty. Please fill it in.</p>
+                                </div>
+                            </div>
+
+                            <div class="contact__form__input__container">
+                                <div class="contact__form__dropdown__country__custom">
+                                    <div>
+                                        <div class="button">
+                                            <div class="selected replacer">Country</div><img
+                                                src="/public/images/img_polygon.svg" />
+                                        </div>
+                                        <ul class="dropdown__menu">
+                                            <li data-value="us">United States</li>
+                                            <li data-value="uk">United Kingdom</li>
+                                            <li data-value="fr">France</li>
+                                        </ul>
+                                        <select id="realSelect" name="country" class="real__select" id="">
+                                            <option value="">Country</option>
+                                            <option value="us">United States</option>
+                                            <option value="uk">United Kingdom</option>
+                                            <option value="fr">France</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <button class="contact__form__submit ui button teal_300 size-lg fill round">
+                                <img src="public/images/img_mdisend.svg" alt="Mdi Send" class="mdi__send" />
+                                <span> Submit</span>
+                            </button>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- testimonial section -->
+            <div class="first__main__contain">
+                <div class="blabla">
+                    <!-- image gallery section -->
+                    <div class="weunderstand__and__elderlies">
+                        <div class="elderlies">
+                            <div class="column__list">
+                                <img src="public/images/elderly_1.png" alt="Image" class="weunderstand__images" />
+                                <img src="public/images/elderly_2.png" alt="Image" class="weunderstand__images" />
+                                <img src="public/images/elderly_3.png" alt="Image" class="weunderstand__images" />
+                            </div>
+                        </div>
+                        <div class="weunderstand__section">
+                            <div class="content__section__title">
+                                <p class="content__section__heading">
+                                    <span class="weunderstand__title__transparent">WE&nbsp;</span>
+                                    <span class="last__word">UNDERSTAND</span>
+                                </p>
+                                <div class="weunderstand__title__divider">
+                                    <div class="weunderstand__title__divider__line"></div>
+                                </div>
+                            </div>
+                            <div class="weunderstand__content__section">
+                                <p
+                                    class="content__section__paragraph content__section__paragraph__1 ui text size-texts">
+                                    Older adults want to play active and meaningful roles in their lives, including
+                                    as part of a
+                                    social network, a neighborhood, and a community. Service providers and
+                                    policymakers must consider
+                                    that a lack of sense of purpose can become problematic as people age. Engaging
+                                    them in leisure
+                                    activities and volunteer work is important.
+                                </p>
+                                <p
+                                    class="content__section__paragraph content__section__paragraph__2 ui text size-texts">
+                                    Older adults want to stay active and contribute to society in a reciprocal
+                                    manner (meaning that
+                                    they want to exchange their services and skills with others for the mutual
+                                    benefit of the
+                                    neighborhood or community). Qualitative and quantitative studies published from
+                                    2005 to 2016
+                                    examining the social needs of older adults were eligible for inclusion.
+                                </p>
+                                <div class="content__section__details__wrapper">
+                                    <p
+                                        class="content__section__paragraph content__section__paragraph__3 ui text size-texts">
+                                        To stimulate social contacts, neighborhood initiatives can be developed.
+                                        Social meeting places,
+                                        such as pubs and churches can help to foster the development of close and
+                                        peripheral
+                                        relationships.
+                                    </p>
+                                    <button
+                                        class="ccontent__section__cta__button ui button teal_300 size-md outline round">
+                                        <span> 92% Success Rate</span>
+                                        <div class="right__icon__wrapper">
+                                            <img src="public/images/img_arrowright.svg" alt="Arrow Right"
+                                                class="arrow__right" />
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__profile">
+                        <div id="slider" class="user__profile__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="user__profile__slider__column swiper-slide">
+                                    <div class="user__profile__image__column">
+                                        <img src="public/images/person_1.png" alt="Maskgroup"
+                                            class="user__profile__image" />
+                                    </div>
+                                    <div class="user__profile__container">
+                                        <div class="user__profile__quote__wrapper">
+                                            <div class="user__profile__name__row">
+                                                <h3 class="user__profile__name ui heading size-headingmd">Abbie Harvey
+                                                </h3>
+                                                <img src="public/images/img_quote.svg" alt="Userimage"
+                                                    class="user__profile__quote__logo" />
+                                            </div>
+                                            <p class="user__profile__quote ui text">
+                                                I have been caring for my mom & dad off and on for about 10 years now,
+                                                and I know the
+                                                importance of me being there for appointments. Older people need
+                                                attention, love and care that
+                                                they truly deserve.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user__profile__slider__column swiper-slide">
+                                    <div class="user__profile__image__column">
+                                        <img src="public/images/person_2.png" alt="Maskgroup"
+                                            class="user__profile__image" />
+                                    </div>
+                                    <div class="user__profile__container">
+                                        <div class="user__profile__quote__wrapper">
+                                            <div class="user__profile__name__row">
+                                                <h3 class="user__profile__name ui heading size-headingmd">Jarred Garter
+                                                </h3>
+                                                <img src="public/images/img_quote.svg" alt="Userimage"
+                                                    class="user__profile__quote__logo" />
+                                            </div>
+                                            <p class="user__profile__quote ui text">
+                                                I have been caring for my mom & dad off and on for about 10 years now,
+                                                and I know the
+                                                importance of me being there for appointments. Older people need
+                                                attention, love and care that
+                                                they truly deserve.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user__profile__slider__column swiper-slide">
+                                    <div class="user__profile__image__column">
+                                        <img src="public/images/person_3.png" alt="Maskgroup"
+                                            class="user__profile__image" />
+                                    </div>
+                                    <div class="user__profile__container">
+                                        <div class="user__profile__quote__wrapper">
+                                            <div class="user__profile__name__row">
+                                                <h3 class="user__profile__name ui heading size-headingmd">Leslie
+                                                    Huttington
+                                                </h3>
+                                                <img src="public/images/img_quote.svg" alt="Userimage"
+                                                    class="user__profile__quote__logo" />
+                                            </div>
+                                            <p class="user__profile__quote ui text">
+                                                I have been caring for my mom & dad off and on for about 10 years now,
+                                                and I know the
+                                                importance of me being there for appointments. Older people need
+                                                attention, love and care that
+                                                they truly deserve.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__controls">
+                            <div class="slider__control__arrows">
+                                <button class="slider__control__previous ui button size-sm square"
+                                    id="slider-control-prev">
+                                    <svg width="25" height="40" viewBox="0 0 25 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.24 35.76L8.48001 20L24.24 4.24L20 -3.70673e-07L7.4705e-06 20L20 40L24.24 35.76Z"
+                                            fill="#EAEAEA" />
+                                    </svg>
+                                </button>
+                                <button class="slider__control__next ui button size-xs square" id="slider-control-next">
+                                    <svg width="25" height="40" viewBox="0 0 25 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.24 35.76L8.48001 20L24.24 4.24L20 -3.70673e-07L7.4705e-06 20L20 40L24.24 35.76Z"
+                                            fill="#EAEAEA" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination__container">
+                    <div id="slider-pagination" class="column__pager-indicator"></div>
+                </div>
+            </div>
+            <div class="services__section">
+                <div class="services__title">
+                    <p class="services__title__heading">
+                        <span class="services__title__transparent">WE&nbsp;</span>
+                        <span class="services__title__filled">CAN ORGANIZE&nbsp;</span>
+                        <span class="last__word"> EVERYTHING</span>
+                    </p>
+                </div>
+                <div class="services__intro">
+                    <div class="el1">
+                        <p class="ui text size-textlg"><span class="el1__first__word">
+                                Interventions
+                            </span> should focus on older adult’s desire for connectedness,
+                            participation and
+                            independence.</p>
+                    </div>
+                    <div class="el2">
+                        <p class="ui text size-textlg"> Loneliness and social isolation are growing public health
+                            concerns
+                            in our aging society.
+                            Whilst these
+                            experiences occur across the life span, 50% of individuals aged over 60 are at risk of
+                            social isolation
+                            and one-third will experience some degree of loneliness later in life. It is vital to reduce
+                            loneliness
+                            and social isolation among older adults.</p>
+                    </div>
+                    <div class="el3">
+                        <p class="ui text size-textlg">The methodology framework proposed by Asked and O’Malley and
+                            further
+                            developed by Levac, et
+                            al. was used
+                            to guide the scoping review process. A total of 33 reviews met the inclusion criteria,
+                            evaluating a
+                            range of interventions targeted at older people residing in the community or
+                            institutionalised settings.</p>
+                    </div>
+                </div>
+                <div class="services__details">
+                    <div class="services__detail__wrapper">
+                        <div class="services__detail__box">
+                            <p>Needs Assessment</p>
+                            <img src="/public/images/img_mdi_info.svg" alt="">
+                        </div>
+                        <div class="tooltip">
+                            <img src="/public/images/img_group_45.svg" alt="">
+                            <p class="ui text size-textxs">We’re experienced in our individual crafts and understand how
+                                each one of our roles impacts
+                                your plan holistically.</p>
+                        </div>
+                    </div>
+                    <div class="services__detail__wrapper">
+                        <div class="services__detail__box">
+                            <p>Treatment Planning & Placement</p>
+                            <img src="/public/images/img_mdi_info.svg" alt="">
+                        </div>
+                        <div class="tooltip">
+                            <img src="/public/images/img_group_45.svg" alt="">
+                            <p class="ui text size-textxs">We’re experienced in our individual crafts and understand how
+                                each one of our roles impacts
+                                your plan holistically.</p>
+                        </div>
+                    </div>
+                    <div class="services__detail__wrapper">
+                        <div class="services__detail__box">
+                            <p>Transportation & Logistics</p>
+                            <img src="/public/images/img_mdi_info.svg" alt="">
+                        </div>
+                        <div class="tooltip">
+                            <img src="/public/images/img_group_45.svg" alt="">
+                            <p class="ui text size-textxs">We’re experienced in our individual crafts and understand how
+                                each one of our roles impacts
+                                your plan holistically.</p>
+                        </div>
+                    </div>
+                    <div class="services__detail__wrapper">
+                        <div class="services__detail__box">
+                            <p>Insurance Advocacys</p>
+                            <img src="/public/images/img_mdi_info.svg" alt="">
+                        </div>
+                        <div class="tooltip">
+                            <img src="/public/images/img_group_45.svg" alt="">
+                            <p class="ui text size-textxs">We’re experienced in our individual crafts and understand how
+                                each one of our roles impacts
+                                your plan holistically.</p>
+                        </div>
+                    </div>
+                    <div class="services__detail__wrapper">
+                        <div class="services__detail__box">
+                            <p>Employment Advocacy</p>
+                            <img src="/public/images/img_mdi_info.svg" alt="">
+                        </div>
+                        <div class="tooltip">
+                            <img src="/public/images/img_group_45.svg" alt="">
+                            <p class="ui text size-textxs">We’re experienced in our individual crafts and understand how
+                                each one of our roles impacts
+                                your plan holistically.</p>
+                        </div>
+                    </div>
+                    <div class="services__detail__wrapper">
+                        <div class="services__detail__box">
+                            <p>Aftercare Planning</p>
+                            <img src="/public/images/img_mdi_info.svg" alt="">
+                        </div>
+                        <div class="tooltip">
+                            <img src="/public/images/img_group_45.svg" alt="">
+                            <p class="ui text size-textxs">We’re experienced in our individual crafts and understand how
+                                each one of our roles impacts
+                                your plan holistically.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video__section">
+                <div class="video__section__introduction">
+                    <img class="row__layout" src="/public/images/curved_background_footer.png" alt="" />
+                    <div class="video__section__introduction__content">
+
+                        <div class="video__section__title">
+                            <p>
+                                <span class="video__section__title__transparent">WATCH</span> THE VIDEO
+                            </p>
+                        </div>
+                        <div class="video__section__info">
+                            <div class="video__section__info__point">
+                                <div class="video__section__info__point__checkmark">
+                                    <img src="/public/images/checkmark.svg" alt="Completed" />
+                                </div>
+                                <div class="video__section__info__point__content">
+                                    <h2 class="video__section__info__point__content__title">
+                                        Needs Assessment
+                                    </h2>
+                                    <p class="video__section__info__point__content__text">
+                                        The Advocacy Evaluation Toolkit contains the instruments used to collect data
+                                        for
+                                        evaluating the Consumer Voices for Coverage program.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="video__section__info__point">
+                                <div class="video__section__info__point__checkmark">
+                                    <img src="/public/images/checkmark.svg" alt="Completed" />
+                                </div>
+                                <div class="video__section__info__point__content">
+                                    <h2 class="video__section__info__point__content__title">
+                                        Insurance Advocacy
+                                    </h2>
+                                    <p class="video__section__info__point__content__text">
+                                        We are committed to advocating for appropriate coverage and payment policies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="video__section__info__point">
+                                <div class="video__section__info__point__checkmark">
+                                    <img src="/public/images/checkmark.svg" alt="Completed" />
+                                </div>
+                                <div class="video__section__info__point__content">
+                                    <h2 class="video__section__info__point__content__title">Treatment Planning &
+                                        Placement
+                                    </h2>
+                                    <p class="video__section__info__point__content__text">
+                                        Patients can better understand medical procedures, discharge instructions, etc.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__play__button">
+                        <div class="play__button__wrapper">
+                            <div class="inner">
+                                <img src="/public/images/play_inner.png" alt="" />
+                            </div>
+                            <div class="outer">
+                                <img src="/public/images/play_outer.png" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="video__section__background">
+                    <img src="public/images/img_header_logo.svg" alt="Headerlogo" class="header__logo" />
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__row container-xs">
+                <div class="footer__info">
+                    <p class="footer__copyright ui text size-texts">@2021 Get an Intervention Inc. All rights
+                        reserved.</p>
+                    <div class="footer__links">
+                        <div>
+                            <a href="#">
+                                <p class="footer__copyright ui text size-texts">Privacy Policy</p>
+                            </a>
+                        </div>
+                        <div class="footer__divider"></div>
+                        <div>
+                            <a href="#">
+                                <p class="footer__copyright ui text size-texts">Terms of use</p>
+                            </a>
+                        </div>
+                        <div class="footer__divider"></div>
+                        <div>
+                            <a href="#">
+                                <p class="footer__copyright ui text size-texts">Site Map</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="video__popup" id="videoPopup">
+            <div class="video__popup__content">
+                <span class="close__button">&times;</span>
+                <video id="videoPlayer" controls>
+                    <source src="/public/videos/senior_care.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function handleSlider() {
+            const sliderTrack = document.querySelector("#slider .swiper-wrapper");
+            const slides = document.querySelectorAll("#slider .swiper-slide");
+            const paginationContainer = document.querySelector("#slider-pagination");
+
+            const totalSlides = slides.length
+            let currentIndex = 0;
+            let parameterIndex = 0
+            let highestIndexReached = totalSlides
+            let isTransitioning = false;
+            let currentTranslate = 0;
+            let startX = 0;
+            let isDragging = false;
+
+            for (let i = 0; i < slides.length; i++) {
+                const bullet = document.createElement("div");
+                bullet.classList.add("swiper-pagination-bullet");
+                bullet.dataset.index = i;
+                paginationContainer.appendChild(bullet);
+
+                bullet.addEventListener("click", async (event) => {
+                    const realCurrentIndex = ((parameterIndex % totalSlides) + (parameterIndex % totalSlides ? totalSlides : 0)) % 3
+                    const diff = realCurrentIndex - (i ?? realCurrentIndex)
+                    if (diff) {
+                        if (diff < 0) {
+                            for (let j = 0; j < Math.abs(diff); j++) {
+                                await goToNextSlide()
+                            }
+                        } else {
+                            for (let j = 0; j < Math.abs(diff); j++) {
+                                await goToPreviousSlide()
+                            }
+                        }
+                    }
+                });
+            }
+
+            function updatePagination() {
+                const realCurrentIndex = ((parameterIndex % totalSlides) + (parameterIndex % totalSlides ? totalSlides : 0)) % 3
+                document.querySelectorAll(".swiper-pagination-bullet").forEach((bullet, index) => {
+                    bullet.classList.toggle("swiper-pagination-bullet-active", index === realCurrentIndex);
+                });
+            }
+
+            // Navigation buttons
+            const nextButton = document.querySelector("#slider-control-next");
+            const prevButton = document.querySelector("#slider-control-prev");
+
+            function updateSliderPosition() {
+                sliderTrack.style.transition = "transform 0.5s ease-in-out";
+                sliderTrack.style.transform = `translateX(${-currentIndex * 100}%)`;
+                currentTranslate = -currentIndex * 100
+            }
+
+            function updateSlider(i) {
+                updateSliderPosition();
+                updatePagination();
+            }
+
+            function prepareBeforeElement() {
+                if (currentIndex === 0) {
+                    const fragment = document.createDocumentFragment()
+                    slides.forEach(slide => {
+                        fragment.appendChild(slide.cloneNode(true))
+                    })
+                    sliderTrack.insertBefore(fragment, sliderTrack.firstChild)
+                    sliderTrack.style.transition = "none";
+                    sliderTrack.style.transform = `translateX(${-totalSlides * 100}%)`;
+                    currentIndex = totalSlides;
+                    currentTranslate = -totalSlides * 100
+                }
+            }
+
+            function prepareAfterElement() {
+                if (highestIndexReached === currentIndex) {
+                    const fragment = document.createDocumentFragment()
+                    slides.forEach(slide => {
+                        fragment.appendChild(slide.cloneNode(true))
+                    })
+                    sliderTrack.appendChild(fragment)
+                    highestIndexReached += totalSlides;
+                }
+            }
+
+            nextButton.addEventListener("click", goToNextSlide);
+
+            async function goToNextSlide() {
+                if (isTransitioning) return;
+                isTransitioning = true;
+                parameterIndex++
+                currentIndex++;
+                updateSlider();
+                isTransitioning = false;
+                setTimeout(() => {
+                    prepareAfterElement()
+                }, 500)
+            }
+
+            prevButton.addEventListener("click", goToPreviousSlide);
+
+            async function goToPreviousSlide() {
+                if (isTransitioning) return;
+                isTransitioning = true;
+                if (currentIndex > 0) {
+                    currentIndex--;
+                }
+                parameterIndex--;
+                updateSlider();
+                isTransitioning = false;
+                setTimeout(() => {
+                    prepareBeforeElement()
+                }, 500)
+            }
+
+            // Swipe
+            sliderTrack.addEventListener("touchstart", startSwipe);
+            sliderTrack.addEventListener("mousedown", startSwipe);
+            sliderTrack.addEventListener("touchmove", moveSwipe);
+            sliderTrack.addEventListener("mousemove", moveSwipe);
+            sliderTrack.addEventListener("touchend", endSwipe);
+            sliderTrack.addEventListener("mouseup", endSwipe);
+            sliderTrack.addEventListener("mouseleave", endSwipe);
+
+            function startSwipe(event) {
+                isDragging = true;
+                startX = getPositionX(event);
+                sliderTrack.style.transition = "none";
+
+                event.stopPropagation()
+                event.preventDefault();
+            }
+
+            function moveSwipe(event) {
+                if (!isDragging) return;
+                const currentX = getPositionX(event);
+                const diffX = currentX - startX;
+                sliderTrack.style.transform = `translateX(calc(${currentTranslate}% + ${diffX}px))`;
+            }
+
+            function endSwipe(event) {
+                if (!isDragging) return;
+                isDragging = false;
+                const endX = getPositionX(event)
+
+                if (!endX) return;
+                const movedBy = endX - startX;
+
+                const swiperOffset = sliderTrack.offsetWidth;
+                const movingPercentage = (movedBy * 100) / swiperOffset;
+
+                if (movingPercentage < -40) {
+                    document.querySelector("#slider-control-next").click();
+                } else if (movingPercentage > 40) {
+                    document.querySelector("#slider-control-prev").click();
+                } else {
+                    updateSliderPosition();
+                }
+            }
+
+            function getPositionX(event) {
+                if (event.type.startsWith("mouse")) {
+                    return event.pageX || 0;
+                } else if (event.type.startsWith("touch") && event.changedTouches && event.changedTouches.length > 0) {
+                    return event.changedTouches[0].clientX || 0;
+                }
+                return 0;
+            }
+
+            // End of swipe
+
+            updatePagination();
+            prepareBeforeElement()
+            prepareAfterElement();
+        }
+
+        function extractMillisecondsFromTransitionValue(value) {
+            const match = value.match(/([\d.]+)s/);
+            if (match) {
+                return parseFloat(match[1]) * 1000;
+            }
+            return null;
+        }
+
+
+        function handleVideo() {
+            const openButton = document.querySelector('.inner');
+            const videoPopup = document.getElementById('videoPopup');
+            const closeButton = document.querySelector('.close__button');
+            const videoPlayer = document.getElementById('videoPlayer');
+
+            function getVideoPopupTransitionTime() {
+                const computedStyle = window.getComputedStyle(videoPopup);
+                const transitionValue = computedStyle["transition"];
+                const ms = extractMillisecondsFromTransitionValue(transitionValue)
+                return ms;
+            }
+
+            function openVideo() {
+                videoPopup.classList.add('show');
+                setTimeout(() => {
+                    videoPopup.style.display = 'flex';
+                    videoPlayer.play();
+                }, getVideoPopupTransitionTime())
+            }
+
+            function closeVideo() {
+                videoPopup.classList.remove('show');
+                setTimeout(() => {
+                    videoPopup.style.display = 'none';
+                    videoPlayer.pause();
+                    videoPlayer.currentTime = 0;
+                }, getVideoPopupTransitionTime());
+            }
+
+            openButton.addEventListener('click', () => {
+                const computedStyle = window.getComputedStyle(videoPopup);
+                const transitionValue = computedStyle["transition"];
+                const ms = extractMillisecondsFromTransitionValue(transitionValue)
+                openVideo();
+            });
+
+            closeButton.addEventListener('click', closeVideo);
+
+            window.addEventListener('click', (e) => {
+                if (e.target === videoPopup) {
+                    closeVideo()
+                }
+            });
+        }
+
+        function handleBurgerButton() {
+            const burgerButton = document.getElementById("burgerButton");
+            const menu = document.getElementById("menuCollapsible");
+            const closeButton = document.getElementById("closeButton");
+            const burgerIcon = [...burgerButton.children].filter(child => child.classList.contains("burger"))[0]
+            const closeIcon = [...burgerButton.children].filter(child => child.classList.contains("close"))[0]
+
+
+            burgerButton.addEventListener("click", () => {
+                if (menu.classList.contains("show")) {
+                    menu.classList.remove("show");
+                    burgerIcon.style.display = "block"
+                    closeIcon.style.display = "none"
+                } else {
+                    burgerIcon.style.display = "none"
+                    closeIcon.style.display = "block"
+                    menu.classList.add("show");
+                }
+            });
+            window.addEventListener("click", (e) => {
+                console.log(e)
+                if (e.target === menu) {
+                    menu.classList.remove("show");
+                }
+            });
+        }
+
+        function handleDropdown() {
+            const realSelect = document.querySelector("#realSelect");
+            const container = document.querySelector(".contact__form__dropdown__country__custom")
+            container.addEventListener("click", function () {
+                this.classList.toggle("open");
+            });
+
+            document.querySelectorAll(".dropdown__menu li").forEach((item) => {
+                item.addEventListener("click", function () {
+                    document.querySelector(".selected").innerText = this.innerText;
+                    const value = this.getAttribute("data-value")
+                    realSelect.value = value
+                    if (value) {
+                        console.log({ container })
+                        const inputContainer = container.closest(".contact__form__input__container").classList.remove("error")
+                    }
+                });
+            });
+        }
+
+        function handleInput() {
+            document.getElementById("form").addEventListener("submit", function (event) {
+                event.preventDefault();
+                const form = new FormData(this);
+                const values = {
+                    first_name: form.get("first_name"),
+                    last_name: form.get("last_name"),
+                    business_email: form.get("business_email"),
+                    company: form.get("company"),
+                    country: form.get("country"),
+                }
+                let hasError = false;
+                for (const key in values) {
+                    let inputField = document.getElementsByName(key);
+
+                    let container = inputField[0].closest(".contact__form__input__container");
+                    if (values[key].trim() === "") {
+                        hasError = true;
+                        container.classList.add("error");
+                    } else {
+                        container.classList.remove("error");
+                    }
+                }
+                if (!hasError) {
+                    window.location.href = "thankyou.html";
+                }
+
+
+            });
+            for (const key of ["first_name", "last_name", "business_email", "company"]) {
+                document.getElementsByName(key)[0].addEventListener("input", function () {
+                    this.closest(".contact__form__input__container").classList.remove("error");
+                });
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            try {
+                await handleSlider();
+                handleVideo();
+                handleBurgerButton();
+                handleDropdown();
+                handleInput()
+            } catch (error) {
+                console.error(error);
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

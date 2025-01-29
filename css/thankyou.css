@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Montserrat;
+  background-color: #f9f9f9;
+}
+
+.thankyou-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.thankyou-box {
+  text-align: center;
+  padding: 30px 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 540px;
+}
+
+.thankyou-box h1 {
+  font-size: 2rem;
+  margin: 0 0 10px;
+  color: var(--teal_700_02) !important;
+}
+
+.thankyou-box p {
+  font-size: 1rem;
+  color: #555;
+}
