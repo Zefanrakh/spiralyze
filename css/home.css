@@ -901,7 +901,7 @@
       }
 
       .slider__controls {
-        width: clamp(1px, 88vw, 2000px);
+        width: clamp(1px, 84vw, 2000px);
         display: flex;
         justify-content: center;
         position: absolute;
